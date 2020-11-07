@@ -1,0 +1,69 @@
+:root{
+    --colorAzul: #1f6f8b;
+    --colorAzulOscuro: #1c2b2d;
+    --colorPastel: #e6d5b8;
+    --colorGris: #99a8b2;
+    --colorBlanco: white;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.barra_superior{
+    color: var(--colorPastel);
+    font-family: 'Comic Sans MS', 'Helvetica', 'sans-serif';
+    background: var(--colorAzulOscuro);
+    font-size: 2.5em;
+    text-decoration:none;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.parrafo{
+    color: var(--colorAzul);
+    width: 30%;
+    font-size: 2em;
+    margin:0 auto;
+    margin-top: 5%;
+}
+
+.contenedor{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+body{
+    background: var(--colorGris);
+}
+
+.logo_kokun{
+    margin-top: 100px;
+}
+footer{
+    background: var(--colorAzul);
+    color:var(--colorBlanco);
+    min-height: 50px;
+    margin-top: 50px;
+    font-size: 1.7em;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.redes_sociales{
+    list-style: none;
+}
+
+.redes_sociales > li{
+    display:inline-block;
+    padding: 10px;
+}
+
+.icono_social{
+    font-size: 2.5em;
+}
+
+.redes_sociales > li > a{
+    color: var(--colorPastel);
+}
